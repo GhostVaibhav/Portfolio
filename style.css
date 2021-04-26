@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.sans {
+    font-family: 'Open Sans',sans-serif;
+}
+.heading {
+    text-align: center;
+    font-size: 5vmax !important;
+}
+.flex-container {
+    justify-content: space-around;
+    width: 100vw;
+    display: flex;
+    color: white;
+}
+.color-1 {
+    background: linear-gradient(to right top, #194189 0%, #3B4980 25%, #8738A7 100%);
+}
+.color-2 {
+    background: linear-gradient(to bottom, #203025 0%, #151516 100%);
+}
+.color-3 {
+    background: linear-gradient(225deg, #1623A6 0%, #3343D4 29%, #175EAC 73%, #176682 100%);
+}
+.color-4 {
+    background: linear-gradient(to right top, #604C7C 0%, #257983 50%, #20825A 100%);
+}
+.color-5 {
+    background: linear-gradient(215deg, #c52d47 0%, #a5325c 30%, #8b366d 100%);
+}
+.color-6 {
+    background: linear-gradient(229deg, #517281 0%, #3b5d70 27%, #4d5c82 72%, #5d647f 100%);
+}
+.color-7 {
+    background: linear-gradient(201deg, #EF278E 0%, #81347F 47%, #43407A 100%);
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmax;
+    margin: 1vh;
+    height: 16vh;
+    border-radius: 3vw;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.width-1 {
+    flex-grow: 1;
+}
+.width-2 {
+    flex-grow: 2;
+}
+.width-3 {
+    flex-grow: 3;
+}
+.width-4 {
+    flex-grow: 4;
+}
+.card:hover {
+    filter: brightness(1.5)
+}

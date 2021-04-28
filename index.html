@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Vaibhav Sharma</title>
+    <script src="script.js"></script>
 </head>
+
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="flex-container">
             <div class="sans card color-1 width-1">Student</div>
             <div class="sans card color-6 width-2">C++</div>
@@ -21,7 +24,7 @@
         </div>
         <div class="flex-container">
             <div class="sans card color-3 width-1">CSS</div>
-            <div class="card heading color-7 width-1">Vaibhav Sharma</div>
+            <div class="sans card heading color-7 width-1">Vaibhav Sharma</div>
             <div class="sans card color-4 width-1">Windows</div>
         </div>
         <div class="flex-container">
@@ -34,6 +37,48 @@
             <div class="sans card color-1 width-4">Resume</div>
             <div class="sans card color-5 width-1">Contact Me!</div>
         </div>
+    </div> -->
+    <div id="container">
+        <div class="flex-container">
+            <div class="unclick sans welcome">Welcome <div class="input-container">
+                    <input autocomplete="off" id="input-contain" type="text" spellcheck="false" placeholder="Anonymous"
+                        onkeypress="return /^[a-zA-Z ]/i.test(event.key)" onkeydown="Enter()" />
+                    <div id="name"></div>
+                    <div class="unclick sans sub-heading"> to Vaibhav's website</div>
+                </div>
+                <div class="icons-pack">
+                    <a href="https://github.com/GhostVaibhav">
+                        <div title="My GitHub account" class="cards" onmouseover="changeColor('#181717')" onmouseout="changeColor('black')">
+                            <img draggable="false" src="github.svg">
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ghost-vaibhav/">
+                        <div title="My LinkedIn account" class="cards" onmouseover="changeColor('#0A66C2')" onmouseout="changeColor('black')">
+                            <img draggable="false" src="linkedin.svg">
+                        </div>
+                    </a>
+                    <a href="mailto:sharmavaibhav110028@gmail.com">
+                        <div title="Mail Me!" class="cards" onmouseover="changeColor('#EA4335')" onmouseout="changeColor('black')">
+                            <img draggable="false" src="gmail.svg">
+                        </div>
+                    </a>
+                    <a href="https://leetcode.com/GhostVaibhav/">
+                        <div title="My Leetcode profile" class="cards" onmouseover="changeColor('#FFA116')" onmouseout="changeColor('black')">
+                            <img draggable="false" src="leetcode.svg">
+                        </div>
+                    </a>
+                    <a href="https://docs.google.com/document/d/1yuOPT4CQtFb7Suivtbpw6chw5R6RL7jPiJtuiQyjVOY/edit?usp=sharing">
+                        <div title="Checkout my Resume!" class="cards" onmouseover="changeColor('#0C9D58')" onmouseout="changeColor('black')">
+                            <img draggable="false" src="mailbox.svg" width="64">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="lets-go" class="unclick heading-image" onclick="formSubmit()">
+            <img draggable="false" src="arrow-right-circle.svg">
+        </div>
     </div>
 </body>
+
 </html>

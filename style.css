@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@ body {
     height: 100vh;
     width: 100vw;
 }
-.container {
+#container {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -15,14 +14,14 @@ body {
     align-items: stretch;
 }
 .sans {
-    font-family: 'Open Sans',sans-serif;
+    font-family: "./kelvetica-nobis.regular.otf",sans-serif;
 }
 .heading {
     text-align: center;
     font-size: 5vmax !important;
 }
 .flex-container {
-    justify-content: space-around;
+    justify-content: center;
     width: 100vw;
     display: flex;
     color: white;
@@ -52,7 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2vmax;
+    font-size: 2.5vmax;
     margin: 1vh;
     height: 16vh;
     border-radius: 3vw;
@@ -77,4 +76,112 @@ body {
 }
 .card:hover {
     filter: brightness(1.5)
+}
+.welcome {
+    font-size: 4vmax;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+.welcome input {
+    font-family: "./kelvetica-nobis.regular.otf",sans-serif;
+    opacity: 0.5;
+    font-weight: 400;
+    max-width: 1200px;
+    width: 100%;
+    direction: ltr;
+    cursor: default;
+    font-size: 7vmax;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: 0.5s all ease-in;
+}
+.welcome input:focus {
+    opacity: 0.7;
+    outline: none;
+}
+.input-container {
+    display: flex;
+}
+.sub-heading {
+    z-index: 10;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    font-size: 3vmax;
+}
+.heading-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 24px;
+    filter: invert();
+}
+.heading-image img {
+    width: 3vmax;
+}
+.icons-pack {
+    display: flex;
+    justify-content: center;
+}
+.cards {
+    margin: 12px;
+    border-radius: 40px;
+    border: solid 2px white;
+    padding: 1vmax 2vmax 1vmax 2vmax;
+    width: 3vmax;
+    transition: all 0.5s ease-in;
+}
+.cards img {
+    filter: invert();
+}
+.github:hover {
+    background-color: #181717;
+}
+.linkedin:hover {
+    background-color: #0A66C2;
+}
+.gmail:hover {
+    background-color: #EA4335;
+}
+.leetcode:hover {
+    background-color: #FFA116;
+}
+.contact:hover {
+    background-color: #0C9D58;
+}
+#container {
+    transition: all 0.5s ease-in;
+}
+#name {
+    display: none;
+    font-family: './kelvetica-nobis.regular.otf',sans-serif;
+    cursor: default;
+    font-size: 7vmax;
+    background-color: black;
+    color: white;
+    border: none;
+    opacity: 0.5;
+    font-weight: 400;
+    max-width: 1200px;
+    min-width: 200px;
+    width: 1200px;
+    transition: all 0.5s ease-in;
+}
+#name:hover {
+    opacity: 0.7;
+}
+#lets-go {
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+.unclick {
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }

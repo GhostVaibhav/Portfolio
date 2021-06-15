@@ -635,3 +635,9 @@ html.sr .load-hidden {
     display: flex;
     justify-content: space-around;
 }
+#main-container {
+    scroll-snap-type: y mandatory;
+}
+#page-1, #page-2, #page-3, #page-4, #page-5 {
+    scroll-snap-align: start;
+}

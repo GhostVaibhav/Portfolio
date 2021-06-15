@@ -237,7 +237,7 @@ section:nth-of-type(even) {
 #contact-form input {
     border: none;
     border-bottom: solid 2px white;
-    font-size: 1.5vmax;
+    font-size: max(1.5vmax,16px);
     padding: 1vmax;
     background-color: transparent;
     color: var(--fnt-color);
@@ -255,20 +255,20 @@ section:nth-of-type(even) {
     display: flex;
     flex-direction: column;
     padding: 2vmax;
-    font-size: 1.5vmax;
+    font-size: max(1.5vmax,16px);
 }
 #message-input {
     display: flex;
     flex-direction: column;
     padding: 2vmax;
-    font-size: 1.5vmax;
+    font-size: max(1.5vmax,16px);
 }
 #input-message {
     background-color: transparent;
     border: none;
     border-bottom: solid 2px white;
     color: white;
-    font-size: 1.5vmax;
+    font-size: max(1.5vmax,16px);
     padding-left: 1vmax;
     resize: none;
 }
@@ -305,7 +305,7 @@ section:nth-of-type(even) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: max(5vmax,48px);
+    width: max(5vmax, 48px);
     cursor: pointer;
     transition: all 0.25s;
 }

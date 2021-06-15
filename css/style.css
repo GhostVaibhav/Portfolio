@@ -494,6 +494,9 @@ html.sr .load-hidden {
     #page-4 {
         flex-direction: column;
     }
+    .project-card {
+        margin-left: 0 !important;
+    }
     .project-showcase {
         height: 70%;
         width: 100% !important;

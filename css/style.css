@@ -380,6 +380,7 @@ html.sr .load-hidden {
     perspective-origin: 50% 50%;
 }
 .icons {
+    opacity: 0.6;
     position: absolute;
     height: 144px;
     margin-top: calc((200px - 144px) / 2);
@@ -408,6 +409,7 @@ html.sr .load-hidden {
 .cube div:nth-child(5) {
     opacity: 0.1;
     transform: rotateX(-90deg) rotateY(0deg) translateZ(100px);
+    box-shadow: 0px 0px 1000px 100px rgba(0,0,0,0.49);
 }
 .cube div:nth-child(6) {
     opacity: 0.1;
@@ -508,35 +510,35 @@ html.sr .load-hidden {
         font-size: 6.5vh;
     }
     .cube-container {
-        height: 40%;
+        height: 50%;
     }
     .cube,
     .img-container {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
     .icons {
-        height: 64px;
-        margin-top: calc((100px - 64px) / 2);
-        margin-left: calc((100px - 64px) / 2);
+        height: 96px;
+        margin-top: calc((150px - 96px) / 2);
+        margin-left: calc((150px - 96px) / 2);
     }
     .cube div:nth-child(1) {
-        transform: rotateY(0deg) translateZ(50px);
+        transform: rotateY(0deg) translateZ(75px);
     }
     .cube div:nth-child(2) {
-        transform: rotateY(90deg) translateZ(50px);
+        transform: rotateY(90deg) translateZ(75px);
     }
     .cube div:nth-child(3) {
-        transform: rotateY(180deg) translateZ(50px);
+        transform: rotateY(180deg) translateZ(75px);
     }
     .cube div:nth-child(4) {
-        transform: rotateY(-90deg) translateZ(50px);
+        transform: rotateY(-90deg) translateZ(75px);
     }
     .cube div:nth-child(5) {
-        transform: rotateX(-90deg) rotateY(0deg) translateZ(50px);
+        transform: rotateX(-90deg) rotateY(0deg) translateZ(75px);
     }
     .cube div:nth-child(6) {
-        transform: rotateX(90deg) rotateY(0deg) translateZ(50px);
+        transform: rotateX(90deg) rotateY(0deg) translateZ(75px);
     }
 }
 @media only screen and (max-width: 666px) {

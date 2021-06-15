@@ -553,6 +553,9 @@ html.sr .load-hidden {
     #page-3-container-text {
         margin-left: 40vw;
     }
+    #contact-form {
+        width: 90%;
+    }
 }
 #color-shift {
     display: flex;

@@ -415,11 +415,14 @@ html.sr .load-hidden {
     transform: rotateX(90deg) rotateY(0deg) translateZ(100px);
 }
 .pseudo {
-    background-color: transparent;
     position: absolute;
     opacity: 0.1;
-    transform: rotateX(-90deg) translateZ(-100px);
-    box-shadow: 35px 3px 125px -8px rgba(0,0,0,0.5);
+    width: 180px;
+    height: 180px;
+    background-color: transparent;
+    transform: rotateX(-90deg) translateZ(-90px);
+    box-shadow: 35px 3px 125px 150px rgba(255,255,255,0.5);
+    border-radius: 40px;
 }
 @keyframes loop {
     from {
@@ -546,6 +549,12 @@ html.sr .load-hidden {
     }
     .cube div:nth-child(6) {
         transform: rotateX(90deg) rotateY(0deg) translateZ(75px);
+    }
+    .pseudo {
+        width: 130px;
+        height: 130px;
+        background-color: transparent;
+        transform: rotateX(-90deg) translateZ(-60px);
     }
 }
 @media only screen and (max-width: 666px) {
